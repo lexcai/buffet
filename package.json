@@ -3,16 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@firebase/firestore": "^3.8.1",
+    "@stripe/react-stripe-js": "^1.16.4",
+    "@stripe/stripe-js": "^1.46.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.11",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@types/react-router": "^5.1.20",
+    "@types/stripe": "^8.0.417",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.16.0",
+    "firebase-admin": "^11.5.0",
+    "firebase-auth": "^0.1.2",
+    "firebase-functions": "^4.2.0",
+    "history": "^5.3.0",
+    "querystring": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
+    "reactstrap": "^9.1.5",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +57,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "dotenv-webpack": "^8.0.1",
+    "file-system": "^2.2.2",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1"
   }
 }
