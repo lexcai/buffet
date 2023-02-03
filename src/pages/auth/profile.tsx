@@ -85,6 +85,7 @@ const ProfilPage: React.FunctionComponent<IPageProps> = (props) => {
       <FormGroup>
         <Input
           type="text"
+          title="Last Name"
           name="lastname"
           id="lastname"
           placeholder={userData?.lastname}
@@ -95,6 +96,7 @@ const ProfilPage: React.FunctionComponent<IPageProps> = (props) => {
       <FormGroup>
         <Input
           type="text"
+          title="First Name"
           name="firstname"
           id="firstname"
           placeholder={userData?.firstname}
@@ -105,6 +107,7 @@ const ProfilPage: React.FunctionComponent<IPageProps> = (props) => {
       <FormGroup>
         <Input
           type="tel"
+          title="Mobile"
           name="mobile"
           id="mobile"
           placeholder={userData?.mobile}
@@ -115,6 +118,7 @@ const ProfilPage: React.FunctionComponent<IPageProps> = (props) => {
       <FormGroup>
         <Input
           type="text"
+          title="Adresse"
           name="adresse"
           id="adresse"
           placeholder={userData?.adresse}
