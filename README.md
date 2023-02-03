@@ -38,6 +38,7 @@ Vous pouvez en savoir plus dans la [documentation de Create React
 # Technologie utilisé et fonctionnalitées 
 
 - React: une bibliothèque JavaScript pour la création d'interface utilisateur 
+- TypeScript: est un sur-ensemble de JavaScript qui ajoute des fonctionnalités de typage statique pour améliorer la qualité du code et faciliter la maintenance. Vous pouvez également mentionner les avantages de l'utilisation de TypeScript, tels que la prévention des erreurs de type et la possibilité de développer de manière plus efficiente.
 - React Router DOM: une bibliothèque pour la gestion de la navigation dans une application React
 - Reactstrap: une bibliothèque basée sur Bootstrap pour la mise en forme et la conception d'interface utilisateur
 - Firebase: une plateforme pour développer des applications Web et mobiles en temps réel, utilisant ici l'authentification et la gestion de la base de données.
