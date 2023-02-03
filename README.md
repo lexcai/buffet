@@ -37,9 +37,9 @@ En savoir plus
 Vous pouvez en savoir plus dans la [documentation de Create React
 # Technologie utilisé et fonctionnalitées 
 
-React: une bibliothèque JavaScript pour la création d'interface utilisateur
-React Router DOM: une bibliothèque pour la gestion de la navigation dans une application React
-Reactstrap: une bibliothèque basée sur Bootstrap pour la mise en forme et la conception d'interface utilisateur
-Firebase: une plateforme pour développer des applications Web et mobiles en temps réel, utilisant ici l'authentification et la gestion de la base de données.
+- React: une bibliothèque JavaScript pour la création d'interface utilisateur 
+- React Router DOM: une bibliothèque pour la gestion de la navigation dans une application React
+- Reactstrap: une bibliothèque basée sur Bootstrap pour la mise en forme et la conception d'interface utilisateur
+- Firebase: une plateforme pour développer des applications Web et mobiles en temps réel, utilisant ici l'authentification et la gestion de la base de données.
 
 Le code de l'application comporte également des pages telles que Home, Login, Logout, Register, Profile, ChangePassword, PaymentForm, ForgotPassword et ResetPassword qui sont toutes gérées par React Router DOM. L'état utilisateur est géré en utilisant la méthode useState de React Hooks. La méthode useEffect est utilisée pour surveiller les changements d'état utilisateur dans Firebase. La navigation est gérée en utilisant les composants Nav, NavItem et NavLink de Reactstrap.
