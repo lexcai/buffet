@@ -15,7 +15,7 @@ import PaymentFormPage from "./pages/paiement/payform";
 
 interface IApplicationProps {}
 
-const Application: React.FC<IApplicationProps> = () => {
+const App: React.FC<IApplicationProps> = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [user, setUser] = useState<any>(null);
 
@@ -60,6 +60,11 @@ const Application: React.FC<IApplicationProps> = () => {
                 Change Password
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink tag={Link} to="/forget">
+                Forget Password
+              </NavLink>
+            </NavItem>
           </>
         ) : (
           <>
@@ -85,7 +90,6 @@ const Application: React.FC<IApplicationProps> = () => {
         <Routes>
           <Route path="/change" element={<ChangePasswordPage />} />
           <Route path="/logout" element={<LogoutPage />} />
-          <Route path="/forget" element={<ForgotPasswordPage />} />
           <Route path="/reset" element={<ResetPasswordPage />} />
           <Route path="/profil" element={<ProfilPage />} />
           <Route path="/payform" element={<PaymentFormPage />} />
@@ -98,9 +102,10 @@ const Application: React.FC<IApplicationProps> = () => {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/forget" element={<ForgotPasswordPage />} />
         </Routes>
       )}
     </>
   );
 };
-export default Application;
+export default App;
